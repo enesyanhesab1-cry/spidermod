@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "spidermod",
+  "version": "${version}",
+  "name": "Spider-Man Mod",
+  "description": "OP esyalar, Spider-Man kostumu ve ag atici (web shooter) ile sallanma.",
+  "authors": ["Ercan"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.spidermod.SpiderMod"],
+    "client": ["com.spidermod.SpiderModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
